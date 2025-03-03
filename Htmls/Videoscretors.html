@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Creators</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #0a0a0a;
+            color: white;
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .header {
+            background-color: #222;
+            padding: 20px;
+            font-size: 35px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            color: #f0f0f0;
+            text-align: center;
+            width: 100%;
+            margin: 0;
+        }
+
+        .nav {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .nav a {
+            color: white;
+            text-decoration: none;
+            margin: 20px;
+            font-size: 18px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: color 0.3s ease;
+        }
+
+        .nav a:hover {
+            color: #FFD700;
+        }
+
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+            padding: 40px 20px;
+            flex-grow: 1;
+        }
+
+        .profile {
+            text-align: center;
+            width: 250px;
+            transition: transform 0.3s ease;
+        }
+
+        .profile:hover {
+            transform: scale(1.05);
+        }
+
+        .profile a {
+            text-decoration: none;
+            color: white;
+            display: block;
+        }
+
+        .profile img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 5px solid #f0f0f0;
+            transition: border-color 0.3s ease, transform 0.3s ease;
+        }
+
+        .profile:hover img {
+            border-color: #FFD700;
+        }
+
+        .profile-name {
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: 10px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: color 0.3s ease;
+        }
+
+        .profile:hover .profile-name {
+            color: #FFD700;
+        }
+
+        .footer {
+            background-color: #222;
+            padding: 10px;
+            text-align: center;
+            font-size: 14px;
+            color: white;
+        }
+
+        @media (max-width: 768px) {
+            .profile {
+                width: 200px;
+            }
+
+            .profile img {
+                width: 150px;
+                height: 150px;
+            }
+
+            .profile-name {
+                font-size: 16px;
+            }
+
+            .header {
+                font-size: 30px;
+            }
+
+            .footer {
+                font-size: 12px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .profile {
+                width: 150px;
+            }
+
+            .profile img {
+                width: 120px;
+                height: 120px;
+            }
+
+            .profile-name {
+                font-size: 14px;
+            }
+
+            .header {
+                font-size: 25px;
+            }
+
+            .footer {
+                font-size: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">Video Creators</div>
+
+    <div class="nav">
+        <a href="/index.html">Home</a>
+        <a href="PeopleBehindProject.html">People Behind the Project</a>
+        <a href="Table of Contents.html">Table of Contents</a>
+        <a href="Videos.html">Videos</a>
+        <a href="Videoscretors.html">Video Creators</a>
+    </div>
+
+    <div class="content">
+        <div class="profile">
+            <a href="https://www.youtube.com/@EurekaSchoolOfficial">
+                <img src="Images/eureka.png" alt="Eureka School Official">
+                <div class="profile-name">Eureka School</div>
+            </a>
+        </div>
+        <div class="profile">
+            <a href="https://www.youtube.com/@BIOCOVER">
+                <img src="Images/ชีวะพี่พี I Bio Cover.jpg" alt="BIOCOVER">
+                <div class="profile-name">BIO COVER</div>
+            </a>
+        </div>
+        <div class="profile">
+            <a href="https://www.youtube.com/@lazybio">
+                <img src="Images/Lazybiopic.png" alt="LazyBio">
+                <div class="profile-name">LazyBio</div>
+            </a>
+        </div>
+        <div class="profile">
+            <a href="https://www.youtube.com/@EasybiologybyDrPukan">
+                <img src="Images/Easy biology by DrPukan.png" alt="DrPukan">
+                <div class="profile-name">Dr Pukan</div>
+            </a>
+        </div>
+        <div class="profile">
+            <a href="https://www.youtube.com/@aimmuno">
+                <img src="Images/Aimmuno.jpg" alt="Aimmuno">
+                <div class="profile-name">Aimmuno</div>
+            </a>
+        </div>
+        <div class="profile">
+            <a href="https://www.youtube.com/@easybioKruFai">
+                <img src="Images/easybio2.jpg" alt="KruFai">
+                <div class="profile-name">KruFai</div>
+            </a>
+        </div>
+        <div class="profile">
+            <a href="https://www.youtube.com/@krutang1403">
+                <img src="Images/Tang.jpg" alt="Krutang">
+                <div class="profile-name">Krutang</div>
+            </a>
+        </div>
+        <div class="profile">
+            <a href="https://www.youtube.com/@dekdschool">
+                <img src="Images/ddd.jpg" alt="dschool">
+                <div class="profile-name">DeckDschool</div>
+            </a>
+        </div>
+        <div class="profile">
+            <a href="https://www.youtube.com/@whatisbioplus">
+                <img src="Images/heybio.jpg" alt="hi">
+                <div class="profile-name">whatisbioplus</div>
+            </a>
+        </div>
+        <div class="profile">
+            <a href="https://www.youtube.com/@INKLab">
+                <img src="Images/ink.jpg" alt="hello">
+                <div class="profile-name">inklab</div>
+            </a>
+        </div>
+        <div class="profile">
+            <a href="https://www.youtube.com/@ManicStPreachersVEVO">
+                <img src="Images/manic.jpg" alt="manic street preachers">
+                <div class="profile-name">manic street preachers</div>
+            </a>
+        </div>
+        
+    
+    
+    
+    </div>
+
+    <div class="footer">&copy; 2025 The BioShit Project</div>
+</body>
+</html>
+
+
+
+
+
+      
+
